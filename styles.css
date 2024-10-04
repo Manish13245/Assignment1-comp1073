@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+h1 {
+    color: #0077b6;
+}
+
+.button-container {
+    margin: 20px;
+}
+
+button {
+    background: #00b4d8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #0077b6;
+}
+
+#story-output {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #333;
+}
